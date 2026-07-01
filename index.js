@@ -2,7 +2,7 @@ function PlaySound(sound_name){
   let audio = new Audio(`sounds/${sound_name}.mp3`);
   audio.play();
 }
-
+// using js vanilla 
 // detecting clicks
 const buttons = document.querySelectorAll('.drum');
 for(let i =0; i<buttons.length;i++){
